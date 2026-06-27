@@ -1,7 +1,7 @@
 package cl.duoc.api_auditoria.service;
 
 import cl.duoc.api_auditoria.model.Auditoria;
-import cl.duoc.api_auditoria.repository.AuditoriaRepository;
+import cl.duoc.api_auditoria.repository.auditoriarepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -10,9 +10,9 @@ import java.util.List;
 @Service
 public class AuditoriaService {
 
-    private final AuditoriaRepository repository;
+    private final auditoriarepository repository;
 
-    public AuditoriaService(AuditoriaRepository repository) {
+    public AuditoriaService(auditoriarepository repository) {
         this.repository = repository;
     }
 
